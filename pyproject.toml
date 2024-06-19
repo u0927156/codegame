@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "codenames"
+version = "0.1.0"
+description = ""
+authors = ["Spencer Peterson <spencer.peterson@biofiredx.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+xlsxwriter = "^3.2.0"
+jupyter = "^1.0.0"
+ipykernel = "^6.29.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
